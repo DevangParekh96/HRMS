@@ -204,4 +204,3 @@
     </section>
     <!-- /.content -->
   </div>
-  <?php include"footer.php"?>
