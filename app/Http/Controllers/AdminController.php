@@ -6,10 +6,11 @@ use App\Models\User;
 use App\Models\Employee;
 use App\Models\Document;
 use Illuminate\Http\Request;
-use DataTables;
+// use DataTables;
 // use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use App\Jobs\SendEmailJob;
+use \Yajra\Datatables\Datatables;
 class AdminController extends Controller
 {/*
     *for displaying user and emplyee data in DataTable   
